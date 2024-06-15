@@ -1,0 +1,21 @@
+{
+  "name": "temp_graph",
+  "version": "1.0.0",
+  "description": "nodejs project of taking temperature from endpoint and graphically representing it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "himani",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chart.js": "^4.4.3",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
